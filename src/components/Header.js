@@ -56,16 +56,16 @@ class Header extends React.Component {
               </Grid>
               <Grid item xs={6}>
                 <Link color="inherit" className={classes.link}>
-                  Home
-                </Link>
-                <Link color="inherit" className={classes.link}>
-                  About Us
+                  Contact
                 </Link>
                 <Link color="inherit" className={classes.link}>
                   Gallery
                 </Link>
                 <Link color="inherit" className={classes.link}>
-                  Contact
+                  About Us
+                </Link>
+                <Link color="inherit" className={classes.link}>
+                  Home
                 </Link>
               </Grid>
             </Toolbar>
