@@ -16,7 +16,6 @@ const styles = {
   title: {
     color: '#FFF',
     marginLeft: '15px',
-    marginTop: '12px',
     fontSize: '2em',
   },
   bar: {
@@ -33,7 +32,10 @@ const styles = {
     paddingRight: '40px',
     cursor: 'not-allowed',
     float: 'right',
-    marginTop: '10px',
+  },
+  grid: {
+    width: '100%',
+    margin: '0',
   }
 };
 
@@ -43,7 +45,7 @@ class Header extends React.Component {
   
     return (
       <div className={classes.root}>
-        <Grid container spacing={40}>
+        <Grid className={classes.grid} container spacing={40}>
           <AppBar position="static">
             <Toolbar className={classes.bar}>
               <Grid item xs={6}>

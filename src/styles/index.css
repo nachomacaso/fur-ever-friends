@@ -45,7 +45,8 @@ body {
 }
 
 h1 {
-  text-align: center
+  text-align: center;
+  padding: 30px;
 }
 
 .site-footer {
