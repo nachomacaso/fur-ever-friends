@@ -62,7 +62,7 @@ class Header extends React.Component {
                   Gallery
                 </Link>
                 <Link color="inherit" className={classes.link}>
-                  About Usß
+                  About Us
                 </Link>
                 <Link color="inherit" className={classes.link}>
                   Home
